@@ -4,3 +4,4 @@ from .views import TodoItemModelViewSet
 
 router = DefaultRouter()
 router.register('todoitem', TodoItemModelViewSet, basename='todoitem')
+ 
